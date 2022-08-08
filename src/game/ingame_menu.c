@@ -43,6 +43,7 @@ s8 gRedCoinsCollected;
 u8 textCurrRatio43[] = { TEXT_HUD_CURRENT_RATIO_43 };
 u8 textCurrRatio169[] = { TEXT_HUD_CURRENT_RATIO_169 };
 u8 textPressL[] = { TEXT_HUD_PRESS_L };
+u8 textPressR[] = { TEXT_HUD_PRESS_R };
 #endif
 
 #if MULTILANG
@@ -1532,6 +1533,9 @@ void render_widescreen_setting(void) {
         print_generic_string(10, 20, textCurrRatio169);
         print_generic_string(10,  7, textPressL);
     }
+
+    //print_generic_string(150, 7, textPressR);
+
     gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
     if (gPlayer1Controller->buttonPressed & L_TRIG){
         gConfig.widescreen ^= 1;
@@ -1904,6 +1908,18 @@ s32 render_pause_courses_and_castle(void) {
             print_hud_pause_colorful_str();
             render_pause_castle_menu_box(160, 143);
             render_pause_castle_main_strings(104, 60);
+
+           /* if (gPlayer1Controller->buttonPressed & R_TRIG) {
+                if (gMarioState->curCharacter == 0) {
+                    gMarioState->curCharacter = 1;
+                    gMarioState->marioObj->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_LUIGI];
+                }
+                else {
+                    gMarioState->curCharacter = 0;
+                    gMarioState->marioObj->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_MARIO];
+                }
+            }
+            */
 
             if (gPlayer3Controller->buttonPressed & (A_BUTTON | START_BUTTON | Z_TRIG)) {
                 level_set_transition(0, NULL);

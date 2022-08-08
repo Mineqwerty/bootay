@@ -1,0 +1,238 @@
+Lights1 mario_cap_2_f3d_material_lights = gdSPDefLights1(
+	0xE, 0xE, 0xE,
+	0x1C, 0x1C, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 mario_cap_2_cap_lights = gdSPDefLights1(
+	0x1D, 0x1D, 0x1D,
+	0x3B, 0x3B, 0x3B, 0x28, 0x28, 0x28);
+
+Lights1 mario_cap_2_f3d_material_001_lights = gdSPDefLights1(
+	0x13, 0x13, 0x13,
+	0x26, 0x26, 0x26, 0x28, 0x28, 0x28);
+
+Vtx mario_cap_2_skinned_022_mesh_layer_1_vtx_0[23] = {
+	{{{-12, 14, 22},0, {1088, 212},{0xC6, 0x32, 0x65, 0xFF}}},
+	{{{-21, 17, 6},0, {458, 16},{0x96, 0x3D, 0x23, 0xFF}}},
+	{{{-25, 5, 11},0, {756, 802},{0xAB, 0x4A, 0x3B, 0xFF}}},
+	{{{-27, 6, -4},0, {180, 784},{0x9D, 0x4D, 0xEB, 0xFF}}},
+	{{{-23, 16, -11},0, {-164, 172},{0x92, 0x21, 0xCA, 0xFF}}},
+	{{{-23, 16, -11},0, {-16, -16},{0x92, 0x21, 0xCA, 0xFF}}},
+	{{{-13, 4, -21},0, {-16, -16},{0xBE, 0xBD, 0xAA, 0xFF}}},
+	{{{-27, 6, -4},0, {-16, -16},{0x9D, 0x4D, 0xEB, 0xFF}}},
+	{{{-8, 14, -26},0, {-16, -16},{0xC7, 0x1F, 0x93, 0xFF}}},
+	{{{0, 1, -25},0, {-16, -16},{0xE0, 0x9C, 0xB8, 0xFF}}},
+	{{{8, 8, -31},0, {-16, -16},{0x10, 0x0, 0x82, 0xFF}}},
+	{{{13, -2, -23},0, {-16, -16},{0x3, 0x91, 0xC3, 0xFF}}},
+	{{{27, -3, -17},0, {-16, -16},{0x59, 0xB6, 0xCC, 0xFF}}},
+	{{{-25, 5, 11},0, {-16, -16},{0xAB, 0x4A, 0x3B, 0xFF}}},
+	{{{-6, 1, 23},0, {-16, -16},{0xD7, 0xA8, 0x52, 0xFF}}},
+	{{{-12, 14, 22},0, {-16, -16},{0xC6, 0x32, 0x65, 0xFF}}},
+	{{{0, 10, 28},0, {-16, -16},{0xEE, 0x1D, 0x7A, 0xFF}}},
+	{{{-12, 14, 22},0, {-16, -16},{0xC6, 0x32, 0x65, 0xFF}}},
+	{{{-6, 1, 23},0, {-16, -16},{0xD7, 0xA8, 0x52, 0xFF}}},
+	{{{6, -2, 23},0, {-16, -16},{0xF1, 0x94, 0x41, 0xFF}}},
+	{{{17, 4, 27},0, {-16, -16},{0x38, 0xF7, 0x72, 0xFF}}},
+	{{{18, -4, 17},0, {-16, -16},{0x13, 0x8A, 0x2C, 0xFF}}},
+	{{{31, -4, 7},0, {-16, -16},{0x67, 0xB8, 0x12, 0xFF}}},
+};
+
+Gfx mario_cap_2_skinned_022_mesh_layer_1_tri_0[] = {
+	gsSPVertex(mario_cap_2_skinned_022_mesh_layer_1_vtx_0 + 0, 16, 0),
+	gsSP1Triangle(0, 1, 2, 0),
+	gsSP1Triangle(1, 3, 2, 0),
+	gsSP1Triangle(1, 4, 3, 0),
+	gsSP1Triangle(5, 6, 7, 0),
+	gsSP1Triangle(6, 5, 8, 0),
+	gsSP1Triangle(6, 8, 9, 0),
+	gsSP1Triangle(8, 10, 9, 0),
+	gsSP1Triangle(9, 10, 11, 0),
+	gsSP1Triangle(11, 10, 12, 0),
+	gsSP1Triangle(13, 14, 15, 0),
+	gsSPVertex(mario_cap_2_skinned_022_mesh_layer_1_vtx_0 + 16, 7, 0),
+	gsSP1Triangle(0, 1, 2, 0),
+	gsSP1Triangle(0, 2, 3, 0),
+	gsSP1Triangle(3, 4, 0, 0),
+	gsSP1Triangle(5, 4, 3, 0),
+	gsSP1Triangle(6, 4, 5, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx mario_cap_2_skinned_022_mesh_layer_1_vtx_1[15] = {
+	{{{0, 16, -27},0, {-16, -16},{0xF2, 0xC, 0x82, 0xFF}}},
+	{{{-8, 14, -26},0, {-16, -16},{0xC7, 0x1F, 0x93, 0xFF}}},
+	{{{-19, 23, -10},0, {-16, -16},{0x86, 0xF4, 0xDF, 0xFF}}},
+	{{{8, 8, -31},0, {-16, -16},{0x10, 0x0, 0x82, 0xFF}}},
+	{{{23, 11, -21},0, {-16, -16},{0x65, 0xA, 0xB4, 0xFF}}},
+	{{{27, -3, -17},0, {-16, -16},{0x59, 0xB6, 0xCC, 0xFF}}},
+	{{{31, -4, 7},0, {-16, -16},{0x67, 0xB8, 0x12, 0xFF}}},
+	{{{25, 9, 14},0, {-16, -16},{0x72, 0x13, 0x35, 0xFF}}},
+	{{{17, 4, 27},0, {-16, -16},{0x38, 0xF7, 0x72, 0xFF}}},
+	{{{7, 15, 24},0, {-16, -16},{0x17, 0x1A, 0x7A, 0xFF}}},
+	{{{0, 10, 28},0, {-16, -16},{0xEE, 0x1D, 0x7A, 0xFF}}},
+	{{{-16, 22, 10},0, {-16, -16},{0x91, 0xFF, 0x3E, 0xFF}}},
+	{{{-12, 14, 22},0, {-16, -16},{0xC6, 0x32, 0x65, 0xFF}}},
+	{{{-21, 17, 6},0, {-16, -16},{0x96, 0x3D, 0x23, 0xFF}}},
+	{{{-23, 16, -11},0, {-16, -16},{0x92, 0x21, 0xCA, 0xFF}}},
+};
+
+Gfx mario_cap_2_skinned_022_mesh_layer_1_tri_1[] = {
+	gsSPVertex(mario_cap_2_skinned_022_mesh_layer_1_vtx_1 + 0, 15, 0),
+	gsSP1Triangle(0, 1, 2, 0),
+	gsSP1Triangle(1, 0, 3, 0),
+	gsSP1Triangle(0, 4, 3, 0),
+	gsSP1Triangle(3, 4, 5, 0),
+	gsSP1Triangle(5, 4, 6, 0),
+	gsSP1Triangle(4, 7, 6, 0),
+	gsSP1Triangle(6, 7, 8, 0),
+	gsSP1Triangle(8, 7, 9, 0),
+	gsSP1Triangle(8, 9, 10, 0),
+	gsSP1Triangle(11, 10, 9, 0),
+	gsSP1Triangle(12, 10, 11, 0),
+	gsSP1Triangle(11, 13, 12, 0),
+	gsSP1Triangle(2, 13, 11, 0),
+	gsSP1Triangle(14, 13, 2, 0),
+	gsSP1Triangle(2, 1, 14, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx mario_cap_2_skinned_022_mesh_vtx_0[41] = {
+	{{{-33, -1, -12},0, {-16, -16},{0xBA, 0x64, 0xDB, 0xFF}}},
+	{{{-27, 6, -4},0, {-16, -16},{0x9D, 0x4D, 0xEB, 0xFF}}},
+	{{{-13, 4, -21},0, {-16, -16},{0xBE, 0xBD, 0xAA, 0xFF}}},
+	{{{-37, -2, 5},0, {-16, -16},{0xAD, 0x5F, 0x12, 0xFF}}},
+	{{{-25, 5, 11},0, {-16, -16},{0xAB, 0x4A, 0x3B, 0xFF}}},
+	{{{-29, -3, 19},0, {-16, -16},{0xC9, 0x5D, 0x43, 0xFF}}},
+	{{{-6, 1, 23},0, {-16, -16},{0xD7, 0xA8, 0x52, 0xFF}}},
+	{{{-25, 2, -5},0, {-16, -16},{0x11, 0x82, 0xFD, 0xFF}}},
+	{{{-33, -1, -12},0, {-16, -16},{0x25, 0x87, 0x5, 0xFF}}},
+	{{{-37, -2, 5},0, {-16, -16},{0x25, 0x87, 0xF3, 0xFF}}},
+	{{{-23, 1, 10},0, {-16, -16},{0x13, 0x84, 0xEF, 0xFF}}},
+	{{{0, 1, -25},0, {-16, -16},{0xE0, 0x9C, 0xB8, 0xFF}}},
+	{{{-29, -3, 19},0, {-16, -16},{0x20, 0x89, 0xE2, 0xFF}}},
+	{{{6, -2, 23},0, {-16, -16},{0xF1, 0x94, 0x41, 0xFF}}},
+	{{{18, -4, 17},0, {-16, -16},{0x13, 0x8A, 0x2C, 0xFF}}},
+	{{{13, -2, -23},0, {-16, -16},{0x3, 0x91, 0xC3, 0xFF}}},
+	{{{18, -4, 17},0, {-16, -16},{0x13, 0x8A, 0x2C, 0xFF}}},
+	{{{13, -2, -23},0, {-16, -16},{0x3, 0x91, 0xC3, 0xFF}}},
+	{{{27, -3, -17},0, {-16, -16},{0x59, 0xB6, 0xCC, 0xFF}}},
+	{{{31, -4, 7},0, {-16, -16},{0x67, 0xB8, 0x12, 0xFF}}},
+	{{{-19, 23, -10},0, {-16, -16},{0x86, 0xF4, 0xDF, 0xFF}}},
+	{{{-18, 28, 17},0, {-16, -16},{0xAD, 0xB9, 0x41, 0xFF}}},
+	{{{-24, 29, -17},0, {-16, -16},{0xA4, 0xB4, 0xD3, 0xFF}}},
+	{{{-16, 22, 10},0, {-16, -16},{0x91, 0xFF, 0x3E, 0xFF}}},
+	{{{8, 23, 28},0, {-16, -16},{0x14, 0x29, 0x77, 0xFF}}},
+	{{{7, 15, 24},0, {-16, -16},{0x17, 0x1A, 0x7A, 0xFF}}},
+	{{{25, 21, 13},0, {-16, -16},{0x68, 0x38, 0x30, 0xFF}}},
+	{{{25, 9, 14},0, {-16, -16},{0x72, 0x13, 0x35, 0xFF}}},
+	{{{23, 23, -20},0, {-16, -16},{0x5F, 0x37, 0xBF, 0xFF}}},
+	{{{23, 11, -21},0, {-16, -16},{0x65, 0xA, 0xB4, 0xFF}}},
+	{{{-1, 24, -31},0, {-16, -16},{0xF4, 0x2A, 0x89, 0xFF}}},
+	{{{0, 16, -27},0, {-16, -16},{0xF2, 0xC, 0x82, 0xFF}}},
+	{{{13, 29, -8},0, {-16, -16},{0x28, 0x78, 0xF8, 0xFF}}},
+	{{{23, 23, -20},0, {-16, -16},{0x5F, 0x37, 0xBF, 0xFF}}},
+	{{{-1, 24, -31},0, {-16, -16},{0xF4, 0x2A, 0x89, 0xFF}}},
+	{{{25, 21, 13},0, {-16, -16},{0x68, 0x38, 0x30, 0xFF}}},
+	{{{0, 32, -4},0, {-16, -16},{0xE, 0x7E, 0xFC, 0xFF}}},
+	{{{-24, 29, -17},0, {-16, -16},{0xF8, 0x7D, 0xEE, 0xFF}}},
+	{{{-4, 32, 8},0, {-16, -16},{0xB, 0x7D, 0x16, 0xFF}}},
+	{{{-18, 28, 17},0, {-16, -16},{0xF1, 0x7B, 0x1D, 0xFF}}},
+	{{{8, 23, 28},0, {-16, -16},{0x14, 0x29, 0x77, 0xFF}}},
+};
+
+Gfx mario_cap_2_skinned_022_mesh_tri_0[] = {
+	gsSPVertex(mario_cap_2_skinned_022_mesh_vtx_0 + 0, 16, 0),
+	gsSP1Triangle(0, 1, 2, 0),
+	gsSP1Triangle(0, 3, 1, 0),
+	gsSP1Triangle(1, 3, 4, 0),
+	gsSP1Triangle(4, 3, 5, 0),
+	gsSP1Triangle(4, 5, 6, 0),
+	gsSP1Triangle(7, 8, 2, 0),
+	gsSP1Triangle(7, 9, 8, 0),
+	gsSP1Triangle(7, 10, 9, 0),
+	gsSP1Triangle(10, 7, 11, 0),
+	gsSP1Triangle(7, 2, 11, 0),
+	gsSP1Triangle(6, 10, 11, 0),
+	gsSP1Triangle(6, 12, 10, 0),
+	gsSP1Triangle(12, 9, 10, 0),
+	gsSP1Triangle(13, 6, 11, 0),
+	gsSP1Triangle(14, 13, 11, 0),
+	gsSP1Triangle(14, 11, 15, 0),
+	gsSPVertex(mario_cap_2_skinned_022_mesh_vtx_0 + 16, 16, 0),
+	gsSP1Triangle(0, 1, 2, 0),
+	gsSP1Triangle(2, 3, 0, 0),
+	gsSP1Triangle(4, 5, 6, 0),
+	gsSP1Triangle(4, 7, 5, 0),
+	gsSP1Triangle(7, 8, 5, 0),
+	gsSP1Triangle(7, 9, 8, 0),
+	gsSP1Triangle(9, 10, 8, 0),
+	gsSP1Triangle(9, 11, 10, 0),
+	gsSP1Triangle(11, 12, 10, 0),
+	gsSP1Triangle(11, 13, 12, 0),
+	gsSP1Triangle(13, 14, 12, 0),
+	gsSP1Triangle(13, 15, 14, 0),
+	gsSP1Triangle(15, 6, 14, 0),
+	gsSP1Triangle(15, 4, 6, 0),
+	gsSPVertex(mario_cap_2_skinned_022_mesh_vtx_0 + 32, 9, 0),
+	gsSP1Triangle(0, 1, 2, 0),
+	gsSP1Triangle(3, 1, 0, 0),
+	gsSP1Triangle(0, 4, 3, 0),
+	gsSP1Triangle(2, 4, 0, 0),
+	gsSP1Triangle(2, 5, 4, 0),
+	gsSP1Triangle(6, 4, 5, 0),
+	gsSP1Triangle(5, 7, 6, 0),
+	gsSP1Triangle(6, 7, 8, 0),
+	gsSP1Triangle(4, 6, 8, 0),
+	gsSP1Triangle(3, 4, 8, 0),
+	gsSPEndDisplayList(),
+};
+
+
+Gfx mat_mario_cap_2_f3d_material[] = {
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPSetLights1(mario_cap_2_f3d_material_lights),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_mario_cap_2_cap[] = {
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPSetLights1(mario_cap_2_cap_lights),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_mario_cap_2_f3d_material_001[] = {
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPSetLights1(mario_cap_2_f3d_material_001_lights),
+	gsSPEndDisplayList(),
+};
+
+Gfx mario_cap_2_skinned_022_mesh_layer_1[] = {
+	gsSPDisplayList(mat_mario_cap_2_f3d_material),
+	gsSPDisplayList(mario_cap_2_skinned_022_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_mario_cap_2_f3d_material_001),
+	gsSPDisplayList(mario_cap_2_skinned_022_mesh_layer_1_tri_1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mario_cap_2_skinned_022_mesh[] = {
+	gsSPDisplayList(mat_mario_cap_2_cap),
+	gsSPDisplayList(mario_cap_2_skinned_022_mesh_tri_0),
+	gsSPEndDisplayList(),
+};
+
+Gfx mario_cap_2_material_revert_render_settings[] = {
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+

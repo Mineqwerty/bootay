@@ -198,6 +198,13 @@ void bhv_normal_cap_init(void) {
     o->oBuoyancy = 0.9f;
     o->oOpacity = 255;
 
+    if (gMarioState->curCharacter == 0) {
+                    o->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_CAP_1];
+                }
+                else {
+                    o->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_CAP_2];
+                }
+
     save_file_set_cap_pos(o->oPosX, o->oPosY, o->oPosZ);
 }
 

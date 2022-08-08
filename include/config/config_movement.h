@@ -18,16 +18,16 @@
 // - Doesn't require holding down the A button
 // - Precise turning control
 // - Prevents falling from the edges
-#define BETTER_HANGING
+//#define BETTER_HANGING
 
 // Change the movement speed when hanging from a ceiling (the vanilla value is 4.0f, has no effect if BETTER_HANGING is enabled)
-#define HANGING_SPEED 12.0f
+#define HANGING_SPEED 4.0f
 
 // Prevents Mario from falling asleep while idle
 // #define NO_SLEEP
 
 // Disables fall damage
-#define NO_FALL_DAMAGE
+//#define NO_FALL_DAMAGE
 
 // Disables the scream that mario makes when falling off a great height (this is separate from actual fall damage)
 //#define NO_FALL_DAMAGE_SOUND
@@ -48,7 +48,7 @@
 //#define PREVENT_CAP_LOSS
 
 // Platform displacement 2 also known as momentum patch. Makes Mario keep the momemtum from moving platforms. Doesn't break treadmills anymore!
-#define PLATFORM_DISPLACEMENT_2
+//#define PLATFORM_DISPLACEMENT_2
 
 // Use Shindou's pole behavior
 //#define SHINDOU_POLES
@@ -57,10 +57,10 @@
 #define EASIER_LONG_JUMPS
 
 // Hold Z while twirling to descend faster
-#define Z_TWIRL
+//#define Z_TWIRL
 
 // Disables bonks when ground pounding next to a wall
-#define DISABLE_GROUNDPOUND_BONK
+//#define DISABLE_GROUNDPOUND_BONK
 
 // Allows Mario to jump kick on steep surfaces that are set to be non slippery, instead of being forced to dive
 #define JUMP_KICK_FIX

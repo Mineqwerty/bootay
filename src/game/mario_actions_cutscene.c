@@ -1595,7 +1595,7 @@ s32 act_squished(struct MarioState *m) {
 }
 
 s32 act_putting_on_cap(struct MarioState *m) {
-    s32 animFrame = set_mario_animation(m, MARIO_ANIM_PUT_CAP_ON);
+    s32 animFrame = set_mario_animation(m, MARIO_ANIM_STAR_DANCE);
 
     if (animFrame == 0) {
         enable_time_stop();
